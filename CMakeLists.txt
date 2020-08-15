@@ -338,7 +338,7 @@ list(APPEND COMPILER_OPTIONS)
 
 # Define LIBRARIES lists, ie. external dependencies to link.
 
-list(APPEND LIBRARIES)
+list(APPEND LIBRARIES stdc++fs)
 
 # Set C++17.
 
